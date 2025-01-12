@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Macaroons</title>
+    <link rel="stylesheet" href="dist/style.min.css">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="container header__container">
+            <a class="logo" href="/">
+                <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="114px" height="13px">
+                    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="18px" x="0px" y="12.964px"><tspan font-size="18px" font-family="Tavolga" fill="#FFFFFF">macaroons</tspan></text>
+                </svg>
+            </a>
+            <nav class="menu" id="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#pies">Пироженки</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#about">О нас</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#order">Оформить заказ</a>
+                    </li>
+                </ul>
+                <div class="close">
+                    <svg width="30" height="30" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_21_7)">
+                            <path d="M0 0L100 100" stroke="#821328" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M0 100L100 0" stroke="#821328" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_21_7">
+                                <rect width="100" height="100" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+            </nav>
+            <a class="phone" href="tel:80293689868">+375 (29) 368-98-68</a>
+            <div class="menu__burger" id="burger">
+                <svg width="40" height="22" viewBox="0 0 40 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_18_9)">
+                        <rect width="40" height="2" fill="#821328"/>
+                        <rect y="10" width="40" height="2" fill="#821328"/>
+                        <rect y="20" width="40" height="2" fill="#821328"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_18_9">
+                            <rect width="40" height="22" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__info">
+                        <h1 class="hero__title">Мягкие французские пироженки Macaroons</h1>
+                        <p class="hero__description">Побалуйте себя и своих близких самыми вкусными и ароматными домашними пироженками Macaroon!</p>
+                        <button class="hero__action">Выбрать маракун</button>
+                    </div>
+                    <div class="hero__img-container">
+                        <img class="hero__img" src="src/images/hero-img.png" alt="Коробка пирожен Маракун">
+                        <div class="wave"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bakery" id="about">
+            <div class="container">
+                <div class="bakery__content">
+                    <div class="bakery__info">
+                        <h2 class="bakery__title">Мы печём для вас вкуснейшие макаруны уже более 10 лет</h2>
+                        <p class="bakery__description">Все пироженки мы готовим только из натуральных и качественных продуктов, без консервантов, ароматизаторов, красителей. Используем в приготовлении сливочное масло 82,5%, без дрожжей, маргарина, разрыхлителей и улучшителей муки.</p>
+                    </div>
+                    <img class="bakery__img" src="src/images/favorites-img.png" alt="Коробка пирожен Маракун">
+                </div>
+                <div class="favourites">
+                    <div class="favourites__item">
+                        <div class="favourites__number">1</div>
+                        <div class="favourites__name">Лучшие продукты</div>
+                        <span class="favourites__description">Мы честно готовим макаруны только из натуральных и качественных продуктов. Мы не используем консерванты, ароматизаторы и красители.</span>
+                    </div>
+                    <div class="favourites__item">
+                        <div class="favourites__number">2</div>
+                        <div class="favourites__name">Много вкусов</div>
+                        <span class="favourites__description">Наша задача – предоставить вам широкое разнобразие вкусов. Вы удивитесь, но у нас более 70 вкусов пироженок.</span>
+                    </div>
+                    <div class="favourites__item">
+                        <div class="favourites__number">3</div>
+                        <div class="favourites__name">Лучшие продукты</div>
+                        <span class="favourites__description">Все пирожные готовятся на бисквитном тесте с  качественным сливочным маслом 82,5%. В составе нет маргарина и дрожжей!</span>
+                    </div>
+                    <div class="favourites__item">
+                        <div class="favourites__number">4</div>
+                        <div class="favourites__name">Лучшие продукты</div>
+                        <span class="favourites__description">Вкус, качество и безопасность наших пирогов подтверждена декларацией о соответствии, которую мы получили 22.06.2016 г.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cards" id="pies">
+            <div class="container">
+                <h2 class="cards__title">Выберите свой макарун</h2>
+                <div class="cards__list">
+                    <div class="cards__item">
+                        <img class="card__img" src="src/images/macaroon-1.png" alt="">
+                        <div class="card__info">
+                            <h3 class="card__title"> Макарун с малиной</h3>
+                            <div class="card__box">
+                                <div class="card__box-text">
+                                    <div class="card__box-piece">1 шт.</div>
+                                    <div class="card__box-price">1,70 руб.</div>
+                                </div>
+                                <button class="card__box-action to-order">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <img class="card__img" src="src/images/macaroon-2.png" alt="">
+                        <div class="card__info">
+                            <h3 class="card__title"> Макарун с манго</h3>
+                            <div class="card__box">
+                                <div class="card__box-text">
+                                    <div class="card__box-piece">1 шт.</div>
+                                    <div class="card__box-price">1,70 руб.</div>
+                                </div>
+                                <button class="card__box-action to-order">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <img class="card__img" src="src/images/macaroon-3.png" alt="">
+                        <div class="card__info">
+                            <h3 class="card__title"> Макарун с ванилью</h3>
+                            <div class="card__box">
+                                <div class="card__box-text">
+                                    <div class="card__box-piece">1 шт.</div>
+                                    <div class="card__box-price">1,70 руб.</div>
+                                </div>
+                                <button class="card__box-action to-order">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <img class="card__img" src="src/images/macaroon-4.png" alt="">
+                        <div class="card__info">
+                            <h3 class="card__title"> Макарун с фисташками</h3>
+                            <div class="card__box">
+                                <div class="card__box-text">
+                                    <div class="card__box-piece">1 шт.</div>
+                                    <div class="card__box-price">1,70 руб.</div>
+                                </div>
+                                <button class="card__box-action to-order">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="action">
+            <div class="container action__container">
+                <div class="action__pictures">
+                    <img class="action__img" src="src/images/action-img.png" alt="Пироженки Макарун">
+                    <img class="action__strawberry" src="src/images/strawberry-1.png" alt="Клубника">
+                </div>
+                <div class="action__order">
+                    <div class="action__order-info">
+                        <h2 class="action__order-name">Закажите макарун</h2>
+                        <p class="action__order-description">Выберите понравившийся макарун, заполните форму и ожидайте звонка нашего пекаря!</p>
+                    </div>
+                    <form class="action__form" id="order">
+                        <img class="action__strawberry action__strawberry-mobile" src="src/images/strawberry-1.png" alt="Клубника">
+                        <div class="form__choice">
+                            <label class="choice__label" for="product">Ваш выбор</label>
+                            <input class="choice__input" type="text" id="product" maxlength="100" placeholder="Напишите, что хотите заказать..." required>
+                            <div class="error-input">Введите ваш Макарун</div>
+                        </div>
+                        <div class="form__data">Заполните данные для заказа</div>
+                        <input class="data__input" id="name" type="text" name="name" placeholder="Ваше имя" required>
+                        <div class="error-input">Введите ваше имя</div>
+                        <input class="data__input" id="phone" type="tel" name="phone" placeholder="375 (__) ___ - __ - __" required>
+                        <div class="error-input">Введите ваш телефон</div>
+                        <button class="form__btn" id="submit" type="button">Оформить заказ</button>
+                    </form>
+                    <img class="form__strawberry" src="src/images/strawberry-2.png" alt="Клубника">
+                    <div class="thanks">Спасибо за Ваш заказ. Мы скоро свяжемся с Вами!</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__info">
+                <div class="footer__logo">
+                    <a class="logo" href="#header">
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="114px" height="13px">
+                            <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="18px" x="0px" y="12.964px"><tspan font-size="18px" font-family="Tavolga" fill="#FFFFFF">macaroons</tspan></text>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__social">
+                <div class="social__ico">
+                    <a href="#">
+                        <img src="src/images/instagram.png" alt="Эмблема Инстаграма">
+                    </a>
+                    <p class="social__text">Мы в Instagram</p>
+                </div>
+            </div>
+            <div class="footer__number">
+                <a class="phone" href="tel:80293689868">+375 (29) 368-98-68</a>
+            </div>
+            <a class="footer__copyright" href="#">Все права защищены, 2020</a>
+        </div>
+    </footer>
+
+    <div class="present">
+        <div class="present__gift">
+            <a class="gift__link" href="#order">
+                <img class="gift__img" src="src/images/present.png" alt="">
+            </a>
+        </div>
+        <div class="present__quote">
+            <img class="quote__background" src="src/images/quote.png" alt="Логотип">
+            <p class="quote__text">Оформите заказ и&nbsp;получите подарок!</p>
+        </div>
+    </div>
+
+    <div class="loader">
+        <div class="dot-spinner">
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+        </div>
+    </div>
+
+    <script src="src/scripts/script.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

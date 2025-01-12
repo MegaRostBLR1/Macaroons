@@ -6,9 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Macaroons</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="stylesheet" href="dist/style.min.css">
 </head>
 <body>
 
@@ -76,7 +74,7 @@
                         <button class="hero__action">Выбрать маракун</button>
                     </div>
                     <div class="hero__img-container">
-                        <img class="hero__img" src="images/hero-img.png" alt="Коробка пирожен Маракун">
+                        <img class="hero__img" src="src/images/hero-img.png" alt="Коробка пирожен Маракун">
                         <div class="wave"></div>
                     </div>
                 </div>
@@ -90,7 +88,7 @@
                         <h2 class="bakery__title">Мы печём для вас вкуснейшие макаруны уже более 10 лет</h2>
                         <p class="bakery__description">Все пироженки мы готовим только из натуральных и качественных продуктов, без консервантов, ароматизаторов, красителей. Используем в приготовлении сливочное масло 82,5%, без дрожжей, маргарина, разрыхлителей и улучшителей муки.</p>
                     </div>
-                    <img class="bakery__img" src="images/favorites-img.png" alt="Коробка пирожен Маракун">
+                    <img class="bakery__img" src="src/images/favorites-img.png" alt="Коробка пирожен Маракун">
                 </div>
                 <div class="favourites">
                     <div class="favourites__item">
@@ -122,7 +120,7 @@
                 <h2 class="cards__title">Выберите свой макарун</h2>
                 <div class="cards__list">
                     <div class="cards__item">
-                        <img class="card__img" src="images/macaroon-1.png" alt="">
+                        <img class="card__img" src="src/images/macaroon-1.png" alt="">
                         <div class="card__info">
                             <h3 class="card__title"> Макарун с малиной</h3>
                             <div class="card__box">
@@ -130,12 +128,12 @@
                                     <div class="card__box-piece">1 шт.</div>
                                     <div class="card__box-price">1,70 руб.</div>
                                 </div>
-                                <button class="card__box-action">Заказать</button>
+                                <button class="card__box-action to-order">Заказать</button>
                             </div>
                         </div>
                     </div>
                     <div class="cards__item">
-                        <img class="card__img" src="images/macaroon-2.png" alt="">
+                        <img class="card__img" src="src/images/macaroon-2.png" alt="">
                         <div class="card__info">
                             <h3 class="card__title"> Макарун с манго</h3>
                             <div class="card__box">
@@ -143,12 +141,12 @@
                                     <div class="card__box-piece">1 шт.</div>
                                     <div class="card__box-price">1,70 руб.</div>
                                 </div>
-                                <button class="card__box-action">Заказать</button>
+                                <button class="card__box-action to-order">Заказать</button>
                             </div>
                         </div>
                     </div>
                     <div class="cards__item">
-                        <img class="card__img" src="images/macaroon-3.png" alt="">
+                        <img class="card__img" src="src/images/macaroon-3.png" alt="">
                         <div class="card__info">
                             <h3 class="card__title"> Макарун с ванилью</h3>
                             <div class="card__box">
@@ -156,12 +154,12 @@
                                     <div class="card__box-piece">1 шт.</div>
                                     <div class="card__box-price">1,70 руб.</div>
                                 </div>
-                                <button class="card__box-action">Заказать</button>
+                                <button class="card__box-action to-order">Заказать</button>
                             </div>
                         </div>
                     </div>
                     <div class="cards__item">
-                        <img class="card__img" src="images/macaroon-4.png" alt="">
+                        <img class="card__img" src="src/images/macaroon-4.png" alt="">
                         <div class="card__info">
                             <h3 class="card__title"> Макарун с фисташками</h3>
                             <div class="card__box">
@@ -169,7 +167,7 @@
                                     <div class="card__box-piece">1 шт.</div>
                                     <div class="card__box-price">1,70 руб.</div>
                                 </div>
-                                <button class="card__box-action">Заказать</button>
+                                <button class="card__box-action to-order">Заказать</button>
                             </div>
                         </div>
                     </div>
@@ -180,24 +178,30 @@
         <section class="action">
             <div class="container action__container">
                 <div class="action__pictures">
-                    <img class="action__img" src="images/action-img.png" alt="Пироженки Макарун">
-                    <img class="action__strawberry" src="images/strawberry-1.png" alt="Клубника">
+                    <img class="action__img" src="src/images/action-img.png" alt="Пироженки Макарун">
+                    <img class="action__strawberry" src="src/images/strawberry-1.png" alt="Клубника">
                 </div>
                 <div class="action__order">
-                    <h2 class="action__order-name">Закажите макарун</h2>
-                    <p class="action__order-description">Выберите понравившийся макарун, заполните форму и ожидайте звонка нашего пекаря!</p>
-                    <form class="action__form">
-                        <img class="action__strawberry action__strawberry-mobile" src="images/strawberry-1.png" alt="Клубника">
+                    <div class="action__order-info">
+                        <h2 class="action__order-name">Закажите макарун</h2>
+                        <p class="action__order-description">Выберите понравившийся макарун, заполните форму и ожидайте звонка нашего пекаря!</p>
+                    </div>
+                    <form class="action__form" id="order">
+                        <img class="action__strawberry action__strawberry-mobile" src="src/images/strawberry-1.png" alt="Клубника">
                         <div class="form__choice">
-                            <label class="choice__label" for="text">Ваш выбор</label>
-                            <input class="choice__input" id="text" maxlength="100" placeholder="Напишите, что хотите заказать..."></input>
+                            <label class="choice__label" for="product">Ваш выбор</label>
+                            <input class="choice__input" type="text" id="product" maxlength="100" placeholder="Напишите, что хотите заказать..." required>
+                            <div class="error-input">Введите ваш Макарун</div>
                         </div>
                         <div class="form__data">Заполните данные для заказа</div>
-                        <input class="data__input" id="order" type="text" name="name" placeholder="Ваше имя" required>
-                        <input class="data__input" type="tel" name="phone" placeholder="+375 (__) ___ - __ - __" required>
-                        <button class="form__btn">Оформить заказ</button>
+                        <input class="data__input" id="name" type="text" name="name" placeholder="Ваше имя" required>
+                        <div class="error-input">Введите ваше имя</div>
+                        <input class="data__input" id="phone" type="tel" name="phone" placeholder="375 (__) ___ - __ - __" required>
+                        <div class="error-input">Введите ваш телефон</div>
+                        <button class="form__btn" id="submit" type="button">Оформить заказ</button>
                     </form>
-                    <img class="form__strawberry" src="images/strawberry-2.png" alt="Клубника">
+                    <img class="form__strawberry" src="src/images/strawberry-2.png" alt="Клубника">
+                    <div class="thanks">Спасибо за Ваш заказ. Мы скоро свяжемся с Вами!</div>
                 </div>
             </div>
         </section>
@@ -220,7 +224,7 @@
             <div class="footer__social">
                 <div class="social__ico">
                     <a href="#">
-                        <img src="images/instagram.png" alt="Эмблема Инстаграма">
+                        <img src="src/images/instagram.png" alt="Эмблема Инстаграма">
                     </a>
                     <p class="social__text">Мы в Instagram</p>
                 </div>
@@ -235,26 +239,30 @@
     <div class="present">
         <div class="present__gift">
             <a class="gift__link" href="#order">
-                <img class="gift__img" src="images/present.png" alt="">
+                <img class="gift__img" src="src/images/present.png" alt="">
             </a>
         </div>
         <div class="present__quote">
-            <img class="quote__background" src="images/quote.png" alt="Логотип">
+            <img class="quote__background" src="src/images/quote.png" alt="Логотип">
             <p class="quote__text">Оформите заказ и&nbsp;получите подарок!</p>
         </div>
     </div>
 
-    <script>
-        document.getElementById('burger').onclick = function () {
-            document.getElementById('menu').classList.add('open')
-        }
+    <div class="loader">
+        <div class="dot-spinner">
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+        </div>
+    </div>
 
-        document.querySelectorAll('#menu  *').forEach((item) => {
-            item.onclick = () => {
-                document.getElementById('menu').classList.remove('open');
-            }
-        })
-    </script>
-
+    <script src="src/scripts/script.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
